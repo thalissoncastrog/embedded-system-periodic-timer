@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
+#include "hardware/timer.h"
 
 #define LED_PIN_RED 11
 #define LED_PIN_YELLOW 12
