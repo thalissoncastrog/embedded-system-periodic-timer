@@ -44,6 +44,9 @@ int main()
     gpio_init(LED_PIN_GREEN);
     gpio_set_dir(LED_PIN_GREEN, true);
 
+    struct repeating_timer timer;
+    add_repeating_timer_ms(3000, repeating_timer_callback, NULL, &timer);
+
     while (true) {
         printf("Hello, world!\n");
         sleep_ms(1000);
