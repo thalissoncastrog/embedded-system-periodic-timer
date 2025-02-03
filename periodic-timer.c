@@ -5,6 +5,8 @@
 #define LED_PIN_YELLOW 12
 #define LED_PIN_GREEN 13
 
+int state = 0;  // Controlls the state of the traffic light
+
 
 int main()
 {
