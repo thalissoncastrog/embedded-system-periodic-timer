@@ -1,4 +1,4 @@
-# Projeto: Timer Periodico
+# Projeto: Timer Periódico
 
 ## 📝 Descrição do Projeto
 
