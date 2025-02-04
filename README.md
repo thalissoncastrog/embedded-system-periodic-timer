@@ -30,6 +30,7 @@ O projeto é constituído pelos seguintes arquivos principais:
 
 - `periodic-timer.c`: Contém a lógica principal do sistema.
 - `CMakeLists.txt`: Arquivo de configuração do CMake para a geração do binário.
+- `diagram.json`: Arquivo de configuração para simulação no wokwi.
 
 ## 🛠️ Requisitos
 
